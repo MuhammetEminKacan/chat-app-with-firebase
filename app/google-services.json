@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581493568786",
+    "project_id": "chatapp-94cf8",
+    "storage_bucket": "chatapp-94cf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581493568786:android:b7a1cb87d1f8d39d1a2fcb",
+        "android_client_info": {
+          "package_name": "com.emin.kacan.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTnlnyXy2INNpM5Pr0jvaK5D-HONhkPgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

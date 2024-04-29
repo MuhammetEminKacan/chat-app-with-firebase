@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gecisler_nav"
+    app:startDestination="@id/girisSayfaFragment">
+
+    <fragment
+        android:id="@+id/girisSayfaFragment"
+        android:name="com.emin.kacan.chatapp.ui.fragments.GirisSayfaFragment"
+        android:label="fragment_giris_sayfa"
+        tools:layout="@layout/fragment_giris_sayfa" >
+        <action
+            android:id="@+id/chatEkranaGecis"
+            app:destination="@id/chatEkranFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatEkranFragment"
+        android:name="com.emin.kacan.chatapp.ui.fragments.ChatEkranFragment"
+        android:label="fragment_chat_ekran"
+        tools:layout="@layout/fragment_chat_ekran" >
+        <action
+            android:id="@+id/girisSayfaDonus"
+            app:destination="@id/girisSayfaFragment" />
+        <action
+            android:id="@+id/ayarlaragecis"
+            app:destination="@id/ayarlarFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ayarlarFragment2"
+        android:name="com.emin.kacan.chatapp.ui.fragments.BilgilerFragment"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_bilgiler" />
+</navigation>

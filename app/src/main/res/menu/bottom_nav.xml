@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ayarlarFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="kişisel bilgiler" />
+    <item
+        android:id="@+id/cikisYap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="çıkış yap" />
+</menu>
